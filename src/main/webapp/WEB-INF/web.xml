@@ -4,16 +4,16 @@
 
 <web-app>
 
-  <display-name>Hello World</display-name>
+  <display-name>HelloServlet</display-name>
 
   <servlet>
-    <servlet-name>Hello</servlet-name>
-    <servlet-class>com.mycompany.hello.HelloServlet</servlet-class>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>HelloServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>Hello</servlet-name>
-    <url-pattern>/hello</url-pattern>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/HelloServlet</url-pattern>
   </servlet-mapping>
 
 </web-app>
