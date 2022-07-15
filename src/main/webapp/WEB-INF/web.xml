@@ -8,12 +8,12 @@
 
   <servlet>
     <servlet-name>HelloServlet</servlet-name>
-    <servlet-class>HelloServlet</servlet-class>
+    <servlet-class>com.</servlet-class>
   </servlet>
 
   <servlet-mapping>
     <servlet-name>HelloServlet</servlet-name>
-    <url-pattern>/HelloServlet</url-pattern>
+    <url-pattern>/hello</url-pattern>
   </servlet-mapping>
 
 </web-app>
